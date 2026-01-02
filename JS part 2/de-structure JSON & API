@@ -1,0 +1,24 @@
+"use strict";
+
+// OBJECT DE-STRUCTURE & JSON API INTRO
+
+const course = {
+  courseName: "JS in hindi",
+  price: "999",
+  courseInstructor: "Iqrar",
+};
+// console.log(course.price);
+
+const { courseInstructor: code } = course;
+console.log(code);
+
+// const navbar = ({ company }) => {};
+// navbar((company = "cyber"));
+
+// THIS IS CALLED JSON.
+
+// {
+//     "name": "iqrar",
+//     "courseNme": "js in hindi",
+//     "price": "free";
+// };
