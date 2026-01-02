@@ -1,0 +1,52 @@
+// "use strict";
+
+// //SINGLETON
+
+// const tinderUser = new Object();
+
+// tinderUser.id = "123abc";
+// tinderUser.name = "sammy";
+// tinderUser.IsLoggedIn = false;
+
+// // console.log(tinderUser);
+
+// const regularUser = {
+//   Email: "someone@gmail.com",
+//   fullname: {
+//     username: {
+//       firstname: "Iqrar",
+//       lastname: "Zour",
+//     },
+//   },
+// };
+// // console.log(regularUser.fullname.username.firstname);
+
+// const obj1 = { 1: "a", 2: "b" };
+// const obj2 = { 3: "a", 4: "b" };
+// // const obj3 = { obj1, obj2 };
+// // console.log(obj3);
+
+// const obj3 = Object.assign(obj1, obj2);
+// const obj4 = { ...obj1, ...obj2 };
+// // console.log(obj4);
+
+// // const tinderUser = {};
+// // console.log(tinderUser);
+
+// const User = [
+//   {
+//     id: 1,
+//     email: "ok@gmail.com",
+//   },
+//   {
+//     name: "iqrar",
+//   },
+// ];
+// console.log(User[1].id);
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty("IsLoggedIn"));
