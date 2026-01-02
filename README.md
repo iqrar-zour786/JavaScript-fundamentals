@@ -1,4 +1,4 @@
 # JavaScript-is-cute
 
 code bY IQRAR ALI
-MEHRAN UET JAMSHORO
+[MEHRAN UET JAMSHORO]
